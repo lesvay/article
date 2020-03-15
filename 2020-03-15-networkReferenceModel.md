@@ -11,7 +11,7 @@ tags:
 
 将网络分层有利于让整个流程更加清晰，复杂的问题简单化。计算机网络参考模型常见的有三种：
 
-![图片-三个参考模型](2020-03-15-networkReferenceModel\cankaomoxing.jpg)
+![图片-三个参考模型](cankaomoxing.jpg)
 
 [图片改编自百度文库](https://wenku.baidu.com/view/f7593b88974bcf84b9d528ea81c758f5f61f29f4.html)
 
@@ -21,7 +21,7 @@ OSI（Open System Interconnect），即开放式系统互联。 一般都叫OSI�
 
 OSI 将计算机网络体系结构划分为七层，每层都可以提供抽象良好的接口，能够提供面向连接和无连接两种通信服务机制。是一种使各种不同的计算机和网络在世界范围内实现互联的标准框架。OSI 虽然层级多，由于功能细化，便于排障。不过由于种种原因，没有得以推行，只能作为一种适合学习的模型。
 
-![图片-图解OSI](2020-03-15-networkReferenceModel\OSItujie.jpg)
+![图片-图解OSI](OSItujie.jpg)
 
 [图片来自科来](http://www.colasoft.com.cn/download/document.php)
 
@@ -51,7 +51,7 @@ TCP/IP参考模型是计算机网络的祖父ARPANET和其后继的因特网使�
 
 从应用层的数据到物理层的比特率，每向下一层数据都会被进一步封装，就像洋葱一样，只有它的芯才是真正的要表达的数据，那一层一层的是传输时的信息，比如下一步要传递给谁？它的地址是多少？
 
-![图片-数据封装](2020-03-15-networkReferenceModel\fengzhuang.png)
+![图片-数据封装](fengzhuang.png)
 
 [图片改编自百度文库](https://wenku.baidu.com/view/f7593b88974bcf84b9d528ea81c758f5f61f29f4.html)
 
@@ -63,13 +63,13 @@ TCP/IP参考模型是计算机网络的祖父ARPANET和其后继的因特网使�
 
 每次需要经过交换机时MAC头部就会被拆解，并被更换为新的MAC头部。每次需要经过路由器时，MAC头部被拆解并向上提交至网络层，IP头部也会被拆解并更换为新的IP头部，然后向下提交加上新的MAC头部。以此类推，最后到达了目标主机。再逐层拆解最后洋葱被拨的只剩芯了，这也是我们真正想要发送的数据。
 
-![图片-数据解封过程](2020-03-15-networkReferenceModel\jiefeng.png)
+![图片-数据解封过程](jiefeng.png)
 
 [图片改编自百度文库](https://wenku.baidu.com/view/f7593b88974bcf84b9d528ea81c758f5f61f29f4.html)
 
 最后这是一张表述每一层所对应物理设备，当然这并不是绝对的，因为现实生活中也会有网络层交换机。
 
-![图片-对应设备](2020-03-15-networkReferenceModel\shebei.png)
+![图片-对应设备](shebei.png)
 
 [图片改编自百度文库](https://wenku.baidu.com/view/f7593b88974bcf84b9d528ea81c758f5f61f29f4.html)
 
