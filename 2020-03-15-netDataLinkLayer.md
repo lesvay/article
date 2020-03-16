@@ -1,6 +1,6 @@
 ---
 title: 数据链路层相关知识点
-date: 2020-03-15 14:59:33
+date: 2020-03-15 14:59:09
 categories: 
     - 计算机网络
 tags: 
@@ -113,7 +113,7 @@ tags:
 
 MAC帧如下：
 
-![图片-MAC帧](2020-03-15-netDataLinkLayer\maczhen)
+![图片-MAC帧](maczhen.jpg)
 
 - 前导码：前同步符、帧开始定界符
 
