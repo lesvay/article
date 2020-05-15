@@ -4,7 +4,7 @@ date: 2020-03-25 16:57:07
 categories: 
     - 算法
 tags: 
-    - KnapsackProblem
+    - 背包问题
 ---
 
 # 问题描述
